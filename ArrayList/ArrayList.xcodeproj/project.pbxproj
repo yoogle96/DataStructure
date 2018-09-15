@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A0E3E93214D62A1008FA4E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E3E92214D62A1008FA4E4 /* main.cpp */; };
+		5ACCAC0D214D64DE00A0BFC3 /* ArrayList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCAC0A214D64DE00A0BFC3 /* ArrayList.cpp */; };
+		5ACCAC0E214D64DE00A0BFC3 /* ArrayListMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCAC0B214D64DE00A0BFC3 /* ArrayListMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5A0E3E8D214D62A1008FA4E4 /* CopyFiles */ = {
+		5ACCABFE214D64B600A0BFC3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5A0E3E8F214D62A1008FA4E4 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A0E3E92214D62A1008FA4E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5ACCAC00214D64B600A0BFC3 /* ArrayList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArrayList; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACCAC0A214D64DE00A0BFC3 /* ArrayList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayList.cpp; sourceTree = "<group>"; };
+		5ACCAC0B214D64DE00A0BFC3 /* ArrayListMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayListMain.cpp; sourceTree = "<group>"; };
+		5ACCAC0C214D64DE00A0BFC3 /* ArrayList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArrayList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A0E3E8C214D62A1008FA4E4 /* Frameworks */ = {
+		5ACCABFD214D64B600A0BFC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A0E3E86214D62A1008FA4E4 = {
+		5ACCABF7214D64B600A0BFC3 = {
 			isa = PBXGroup;
 			children = (
-				5A0E3E91214D62A1008FA4E4 /* test */,
-				5A0E3E90214D62A1008FA4E4 /* Products */,
+				5ACCAC02214D64B600A0BFC3 /* ArrayList */,
+				5ACCAC01214D64B600A0BFC3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5A0E3E90214D62A1008FA4E4 /* Products */ = {
+		5ACCAC01214D64B600A0BFC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A0E3E8F214D62A1008FA4E4 /* test */,
+				5ACCAC00214D64B600A0BFC3 /* ArrayList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A0E3E91214D62A1008FA4E4 /* test */ = {
+		5ACCAC02214D64B600A0BFC3 /* ArrayList */ = {
 			isa = PBXGroup;
 			children = (
-				5A0E3E92214D62A1008FA4E4 /* main.cpp */,
+				5ACCAC0A214D64DE00A0BFC3 /* ArrayList.cpp */,
+				5ACCAC0C214D64DE00A0BFC3 /* ArrayList.hpp */,
+				5ACCAC0B214D64DE00A0BFC3 /* ArrayListMain.cpp */,
 			);
-			path = test;
+			path = ArrayList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A0E3E8E214D62A1008FA4E4 /* test */ = {
+		5ACCABFF214D64B600A0BFC3 /* ArrayList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A0E3E96214D62A1008FA4E4 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 5ACCAC07214D64B600A0BFC3 /* Build configuration list for PBXNativeTarget "ArrayList" */;
 			buildPhases = (
-				5A0E3E8B214D62A1008FA4E4 /* Sources */,
-				5A0E3E8C214D62A1008FA4E4 /* Frameworks */,
-				5A0E3E8D214D62A1008FA4E4 /* CopyFiles */,
+				5ACCABFC214D64B600A0BFC3 /* Sources */,
+				5ACCABFD214D64B600A0BFC3 /* Frameworks */,
+				5ACCABFE214D64B600A0BFC3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = test;
-			productName = test;
-			productReference = 5A0E3E8F214D62A1008FA4E4 /* test */;
+			name = ArrayList;
+			productName = ArrayList;
+			productReference = 5ACCAC00214D64B600A0BFC3 /* ArrayList */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5A0E3E87214D62A1008FA4E4 /* Project object */ = {
+		5ACCABF8214D64B600A0BFC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = yoogle;
 				TargetAttributes = {
-					5A0E3E8E214D62A1008FA4E4 = {
+					5ACCABFF214D64B600A0BFC3 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 5A0E3E8A214D62A1008FA4E4 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 5ACCABFB214D64B600A0BFC3 /* Build configuration list for PBXProject "ArrayList" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5A0E3E86214D62A1008FA4E4;
-			productRefGroup = 5A0E3E90214D62A1008FA4E4 /* Products */;
+			mainGroup = 5ACCABF7214D64B600A0BFC3;
+			productRefGroup = 5ACCAC01214D64B600A0BFC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A0E3E8E214D62A1008FA4E4 /* test */,
+				5ACCABFF214D64B600A0BFC3 /* ArrayList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5A0E3E8B214D62A1008FA4E4 /* Sources */ = {
+		5ACCABFC214D64B600A0BFC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A0E3E93214D62A1008FA4E4 /* main.cpp in Sources */,
+				5ACCAC0D214D64DE00A0BFC3 /* ArrayList.cpp in Sources */,
+				5ACCAC0E214D64DE00A0BFC3 /* ArrayListMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5A0E3E94214D62A1008FA4E4 /* Debug */ = {
+		5ACCAC05214D64B600A0BFC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		5A0E3E95214D62A1008FA4E4 /* Release */ = {
+		5ACCAC06214D64B600A0BFC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +240,7 @@
 			};
 			name = Release;
 		};
-		5A0E3E97214D62A1008FA4E4 /* Debug */ = {
+		5ACCAC08214D64B600A0BFC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -242,7 +248,7 @@
 			};
 			name = Debug;
 		};
-		5A0E3E98214D62A1008FA4E4 /* Release */ = {
+		5ACCAC09214D64B600A0BFC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,25 +259,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A0E3E8A214D62A1008FA4E4 /* Build configuration list for PBXProject "test" */ = {
+		5ACCABFB214D64B600A0BFC3 /* Build configuration list for PBXProject "ArrayList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A0E3E94214D62A1008FA4E4 /* Debug */,
-				5A0E3E95214D62A1008FA4E4 /* Release */,
+				5ACCAC05214D64B600A0BFC3 /* Debug */,
+				5ACCAC06214D64B600A0BFC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A0E3E96214D62A1008FA4E4 /* Build configuration list for PBXNativeTarget "test" */ = {
+		5ACCAC07214D64B600A0BFC3 /* Build configuration list for PBXNativeTarget "ArrayList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A0E3E97214D62A1008FA4E4 /* Debug */,
-				5A0E3E98214D62A1008FA4E4 /* Release */,
+				5ACCAC08214D64B600A0BFC3 /* Debug */,
+				5ACCAC09214D64B600A0BFC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5A0E3E87214D62A1008FA4E4 /* Project object */;
+	rootObject = 5ACCABF8214D64B600A0BFC3 /* Project object */;
 }
