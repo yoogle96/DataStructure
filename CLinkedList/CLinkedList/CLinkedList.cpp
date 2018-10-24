@@ -1,3 +1,4 @@
+#include <iostream>
 #include "CLinkedList.h"
 
 void ListInit(List * plist){

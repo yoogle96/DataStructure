@@ -4,10 +4,10 @@
 #define TRUE 1
 #define FALSE 0
 
-typedef int Data;
+//#include <iostream>
 
-#include <iostream>
-using namespace std;
+
+typedef int Data;
 
 typedef struct _node{
     Data data;
